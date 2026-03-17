@@ -242,3 +242,7 @@ RETURN DIVIDE(CurrentPremium - PrevPremium, PrevPremium, 0)
 ```
 
 ```
+
+/// average settlements
+Avg Settlement Days =
+AVERAGE(Fact_Claims[Settlement_Days])
